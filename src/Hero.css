@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Visby;
+  src: url("Fontspring-DEMO-visbycf-heavy.otf");
+}
+
+
+
+.container{
+display: grid;
+grid-template-columns: 1fr;
+position: relative;
+  text-align: center;
+/* width: 1400px; */
+height: 100vh;
+
+}
+
+/* .header{
+/* margin-top: 3rem;
+  height: 100vh;
+  background-image: url("1.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+  /* position: relative; */
+ 
+
+
+
+
+img{
+
+  width:100%;
+}
+
+span{
+ 
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: aliceblue;
+
+
+}
+
+ul, a{
+font-weight: bold;
+  text-decoration: none;
+  color: aliceblue;
+  display: flex;
+  gap:20px;
+    list-style: none;
+      font-size: 20px;
+
+    
+
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+/* border: 2px solid green; */
+left: 33%;
+position: absolute;
+top: 29%;
+font-family: "Visby";
+color: rgb(25, 25, 25);
+
+
+
+}
+
+a:hover{
+
+  color: rgb(17, 16, 16);
+  font-size: 30px;
+}
+
+
+.name{
+  font-size: 7rem;
+  padding-top: 13px;
+  margin: 0;
+}
+.meet{
+
+  font-size: 4rem;
+}
+
+.title{
+margin: 0;
+  font-size: 2rem;
+
+  
+}
