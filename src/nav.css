@@ -1,0 +1,42 @@
+.nav-corner{
+  width: fit-content;
+   font-size: 1rem;
+   margin: 0;
+   padding: 0;
+   gap:0px;
+   position: fixed;
+align-items: flex-start;
+margin-left: 83%;
+
+}
+
+a{
+
+  color: rgb(21, 21, 21);
+}
+a:hover{
+
+color: beige;
+  background-color: #262727;
+
+}
+.sq-1{
+
+  padding: 30px;
+  background-color: #58C7DA;
+}
+
+.sq-2 {
+    padding: 30px;
+  background-color: #FE9B39;
+}
+
+.sq-3 {
+    padding: 30px;
+  background-color: #F4C85C;
+}
+.sq-4 {
+  padding: 30px;
+  background-color: #58C7DA;
+}
+

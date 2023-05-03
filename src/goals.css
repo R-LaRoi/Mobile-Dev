@@ -1,21 +1,49 @@
-body{
 
-  margin: 0;
-}
 
-.section{
-margin: auto;
-  height: 100vh;
-  background-image: url("2.png");
-background-size: cover;
-background-repeat: no-repeat;
-
- font-size: 50px;
- color: black;
-
-}
 
 @font-face {
   font-family: Visby;
   src: url("Fontspring-DEMO-visbycf-heavy.otf");
+}
+
+
+body {
+font-family: 'Visby';
+  margin: 0;
+}
+.sec-goals{
+margin: auto;
+  height: 100vh;
+  /* background-image: url("images/3.png");
+  background-size: cover;
+background-position:left;
+background-repeat: no-repeat; */
+
+ font-size: 50px;
+ color: black;
+
+
+}
+
+
+main{
+text-align: start;
+line-height: 1.5;
+  padding-top: 12rem;
+font-size: 18px;
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+ font-family: 'Poppins', sans-serif;
+
+
+}
+
+.text{
+
+  padding: 5rem;
+}
+
+h1{
+  font-size: 5rem;
+  margin-bottom: 0;
 }

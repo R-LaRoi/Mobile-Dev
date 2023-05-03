@@ -1,0 +1,15 @@
+.sec-projects{
+
+  display: grid;
+
+grid-template-columns:1fr 1fr;
+  grid-template-rows: 1fr ;
+
+}
+
+.sec-1{
+  height: 100vh;
+color: whitesmoke;
+  background-color: rgb(20, 20, 20);
+  /* border: 2px solid gold; */
+}

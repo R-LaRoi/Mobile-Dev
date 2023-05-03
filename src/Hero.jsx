@@ -1,7 +1,7 @@
 import React from "react"
 import "./Hero.css"
-import "./1.png"
-import Nav from "./Nav"
+import "./images/1.png"
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return(
@@ -14,9 +14,15 @@ export default function Hero() {
       <div className="hero-text name">rachel
       <div className="title">frontend developer</div>
 
-     <Nav />
+<div>
+  <ul>
+    <li><Link to="/">home</Link>
+      </li><li><Link to="/goals">goals</Link></li>
+     <li><Link to="/projects">projects</Link></li>
+      <li><Link to="/contact">contact</Link></li>
+      </ul>
         
-  
+  </div>
      </div>
  
 
