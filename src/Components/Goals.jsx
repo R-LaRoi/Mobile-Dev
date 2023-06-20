@@ -1,6 +1,5 @@
 import React from 'react'
-import Nav from './Nav'
-import "./Goals.css"
+
 
 export default function Goals() {
 
@@ -20,11 +19,6 @@ develop a body of work that is transformative and experiential though spatial de
  </div>
 
 
-Experienced General Manager working in an operations/administrative capacity. 
-
-Looking to leverage an extensive background in operations management and print media.
-
-I am self-motivated and capable of working independently and proactively to solve problems at hand. Self-starter, takes responsibility/ownership of tasks able to adapt to changing situations.
 
 
 

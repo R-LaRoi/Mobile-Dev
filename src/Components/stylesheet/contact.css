@@ -1,0 +1,48 @@
+.contact-section{
+height: 100vh;
+  background-color: #FF7F11;
+color: rgb(15, 15, 15)
+}
+
+
+.connect{
+font-family: "Tusker-28";
+  font-size: 9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hi{
+
+  font-family: "Tusker-98";
+    font-size: 2.7rem;
+    text-transform: uppercase;
+
+}
+
+.link-card{
+height: 330px;
+width: 300px;
+background-color: rgba(252, 169, 60, 0.787);
+border-radius:10px;
+position: relative;
+bottom: 60px;
+left: 45px;
+z-index: 1;
+
+}
+
+.elephant{
+position: relative;
+  width: 320px;
+  z-index: 9;
+  left: 20px;
+}
+
+.contact-header{
+z-index: 9;
+  position: relative;
+  bottom: 100px;
+text-align: center;
+line-height: .92;
+}

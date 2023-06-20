@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Tusker-28;
+  src: url("TuskerFont/TuskerGrotesk-2800Super.otf");
+}
+
+@font-face {
+  font-family: Tusker-98;
+  src: url("TuskerFont/TuskerGrotesk-9800Super.otf");
+}
+
+
+
+body{
+background-color: #FF1034;
+  margin: 0;
+}
+
+@media (max-width:600px) {
+.hp-container {
+margin-bottom: 0;
+    position: relative;
+    height: 100vh;
+    color: rgb(15, 15, 15)
+
+  }
+
+
+            .mobile-img {
+              width: 390px;
+              /* margin-left: -30px; */
+              /* bottom: 6px; */
+              z-index: 1;
+              margin-bottom: 0;
+            }
+
+
+            .title-mobile{
+  letter-spacing: 2.9px;
+  font-family: 'Tusker-28', sans-serif;
+  overflow: hidden;
+  font-weight: 800;
+  font-size: 6rem;
+  position: relative;
+  bottom:650px;
+  text-transform:uppercase;
+  line-height: 1.2;
+  padding-left: 15px;
+  margin-top: -2rem;
+
+            }
+
+            .sub-title{
+font-family: 'Tusker-98', sans-serif;
+font-size: .7rem;
+margin-top: -15px;
+letter-spacing: 3.4px;
+            }
+}
+

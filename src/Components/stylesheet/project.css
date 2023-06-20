@@ -1,0 +1,34 @@
+
+
+.pro-header{
+font-family: "Tusker-28";
+font-size: 7rem;
+text-transform: uppercase;
+
+
+}
+
+.pro-section{
+  margin-top: -25%;
+background-color: #fff700;
+  height: 100vh;
+  padding-top: 50px;
+background-image: url('./bird.png');
+background-size: 790px;
+background-position: -380px 450px;
+background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(15, 15, 15)
+
+}
+
+.card{
+background-color: #ebebeb99;
+height: 400px;
+width: 300px;
+display: flex;
+justify-content: space-around;
+margin-left: 45px;
+
+
+}

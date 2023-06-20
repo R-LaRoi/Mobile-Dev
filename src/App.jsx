@@ -1,27 +1,33 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
-import Hero from "./Hero";
-import Goals from "./Goals";
-import Projects from "./projects"
-import Contact from "./Contact";
-
-// import Contact from "./pages/Contact";
-// import NoPage from "./pages/NoPage";
+import Hero from "./Components/Hero";
+import Projects from "./Components/projects"
+import Contact from "./Components/Contact";
+import "./App.css"
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          
-          <Route index element={<Hero />} />
-          <Route path="goals" element={<Goals />} />
-          <Route exact path="projects" element={<Projects />} />
-          <Route exact path="contact" element={<Contact />} />
+<><Layout/>
+
+
+<Hero/>
+
+<Projects />
+<Contact />
+
+
+
+</>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Layout />}>
+    //       <Route index element={<Hero />} />
+    //       <Route exact path="projects" element={<Projects />} />
+    //       <Route exact path="contact" element={<Contact />} />
     
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    //     </Route>
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 
