@@ -10,12 +10,14 @@
 
 
 
-body{
-background-color: #FF1034;
-  margin: 0;
-}
 
 @media (max-width:600px) {
+
+
+body {
+    background-color: #FF1034;
+    margin: 0;
+  }
 .hp-container {
 margin-bottom: 0;
     position: relative;

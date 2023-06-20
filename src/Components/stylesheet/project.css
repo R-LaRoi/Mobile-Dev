@@ -8,8 +8,13 @@ text-transform: uppercase;
 
 }
 
+@media (max-width:600px) {
+
+
+
+
 .pro-section{
-  margin-top: -25%;
+  margin-top: -10%;
 background-color: #fff700;
   height: 100vh;
   padding-top: 50px;
@@ -18,7 +23,10 @@ background-size: 790px;
 background-position: -380px 450px;
 background-repeat: no-repeat;
   text-align: center;
-  color: rgb(15, 15, 15)
+  color: rgb(15, 15, 15);
+  margin-bottom: 0;
+    position: relative;
+    height: 100vh;
 
 }
 
@@ -31,4 +39,5 @@ justify-content: space-around;
 margin-left: 45px;
 
 
+}
 }
