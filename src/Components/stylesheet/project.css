@@ -1,15 +1,52 @@
 
+@media (min-width:551px){
+
+.pro-section {
+
+    background-color: #fff820de;
+    height: 100vh;
+    width: 100vw;
+    padding: 70px 50px;
+    background-image: url('./bird.png');
+    background-size: 1090px;
+    background-position: -380px 350px;
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    color: rgb(15, 15, 15);
+    margin-bottom: 0;
+    position: relative;
+    margin-top: 27%;
+    font-family: Arial, Helvetica, sans-serif
+
+
+  }
 
 .pro-header{
 font-family: "Tusker-28";
-font-size: 7rem;
+font-size: 12rem;
 text-transform: uppercase;
 
 
 }
 
-@media (max-width:600px) {
+.card {
+  background-color: #ffffffed;
+  height: 400px;
+  width: 700px;
+  display: flex;
+position: relative;
+left: 40%;
+bottom: 30%;
 
+
+}
+
+.p-text{
+
+  width: 400px;
+}
+}
+@media (max-width:550px) {
 
 
 
@@ -17,7 +54,7 @@ text-transform: uppercase;
   margin-top: -10%;
 background-color: #ffe600;
   height: 100vh;
-  padding-top: 50px;
+  padding: 70px 50px;
 background-image: url('./bird.png');
 background-size: 790px;
 background-position: -380px 450px;
@@ -40,4 +77,12 @@ margin-left: 45px;
 
 
 }
+.pro-header {
+  font-family: "Tusker-28";
+  font-size: 7rem;
+  text-transform: uppercase;
+
+
+}
+
 }

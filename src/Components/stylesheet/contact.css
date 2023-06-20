@@ -1,8 +1,8 @@
-@media (max-width:600px) {
+@media (max-width:550px) {
 
 
 .contact-section{
-
+padding: 50px;
   margin-bottom: 0;
     position: relative;
     color: rgb(15, 15, 15);
@@ -34,7 +34,7 @@ background-color: rgba(252, 169, 60, 0.787);
 border-radius:10px;
 position: relative;
 bottom: 60px;
-left: 45px;
+left: 35px;
 z-index: 1;
 
 }
@@ -53,5 +53,71 @@ z-index: 9;
 text-align: center;
 line-height: .92;
 }
+
+}
+
+
+
+@media (min-width:551px) {
+
+
+  .contact-section {
+    padding: 50px;
+    margin-bottom: 0;
+    position: relative;
+    color: rgb(15, 15, 15);
+    height: 100vh;
+    width: 100vw;
+    background-color: #FF7F11;
+    display: flex;
+    flex-direction: row;
+    background-image: url('./src/Components/assets/elephant.png');
+    background-size: 950px;
+    background-repeat: no-repeat;
+    background-position: 900px 350px;
+
+  }
+
+
+  .connect {
+    font-family: "Tusker-28";
+    font-size: 14rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .hi {
+
+    font-family: "Tusker-98";
+    font-size: 4.15rem;
+    text-transform: uppercase;
+letter-spacing: 1px;
+  }
+
+  .link-card {
+    height: 530px;
+    width: 700px;
+    background-color: rgba(252, 169, 60, 0.787);
+    border-radius: 10px;
+    position: relative;
+    bottom: 0px;
+
+    z-index: 1;
+
+  }
+
+  .elephant {
+ display: none;
+
+  }
+
+  .contact-header {
+    z-index: 9;
+    position: relative;
+    top: 190px;
+left: 10%;
+
+    line-height: .92;
+  }
 
 }
