@@ -12,3 +12,8 @@
   font-family: Tusker-98;
   src: url("TuskerFont/TuskerGrotesk-9800Super.otf");
 }
+
+.page{
+
+  max-width: 500px;
+}

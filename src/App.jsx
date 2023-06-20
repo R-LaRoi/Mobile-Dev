@@ -7,7 +7,9 @@ import "./App.css"
 
 export default function App() {
   return (
-<><Layout/>
+<div className="page"
+
+><Layout/>
 
 
 <Hero/>
@@ -17,7 +19,7 @@ export default function App() {
 
 
 
-</>
+</div>
     // <BrowserRouter>
     //   <Routes>
     //     <Route path="/" element={<Layout />}>
