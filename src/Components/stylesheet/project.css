@@ -8,8 +8,9 @@ position: relative;
 left:28%;
 }
 .pro-section {
-
-    background-color: #fff820de;
+  background-color: #fcd700;
+/* background-color: #ffe600; */
+    /* background-color: #fff820de; */
     height: 100vh;
     width: 100vw;
     padding: 70px 50px;
@@ -41,7 +42,7 @@ display: flex;
 }
 
 .slider {
-  background-color: #ff95015e;
+  /* background-color: #ff95015e; */
 width: 100vw;
   /* height: 80vh; */
  padding: 2rem;
@@ -91,7 +92,7 @@ font-size: .7rem;
 
 .pro-section{
   margin-top: -1%;
-background-color: #ffe600;
+background-color: #fcd700;
   height: 100vh;
   padding: 70px 50px;
 background-image: url('./bird.png');
@@ -123,13 +124,13 @@ background-repeat: no-repeat;
 }
 
 .slider {
+  margin-top: 30px;
   height: 300px;
-  width: 300px;
-  background-color: #f8b200ed;
+  /* width: 300px;
+  background-color: #f8b200ed; */
 border-radius: 10px;
 position: relative;
-left:70px;
-padding: 10px;
+padding: 0px;
 
 
 }

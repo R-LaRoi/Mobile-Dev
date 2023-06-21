@@ -10,14 +10,14 @@ body {
 margin-bottom: 0;
     position: relative;
     height: 100vh;
-      color: rgb(27, 27, 27);
-    padding-left: 12%;
+      color: rgb(23, 22, 22);
+    padding-left: 5%;
 
   }
 
 
             .mobile-img {
-              width: 420px;
+              width: 450px;
           
               bottom: 6px;
               z-index: 1;

@@ -46,9 +46,9 @@ if (sendMessage) {
 
     <div className= 'contact-section'>
 
-   
+        <img src={elephant} alt="" className='elephant'/>
          <div className='contact-header'>
-                <img src={elephant} alt="" className='elephant'/>
+           
       <div className='link-card'>  
 
 <div className=''>
