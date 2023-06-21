@@ -3,6 +3,9 @@ import Layout from "./Layout";
 import Hero from "./Components/Hero";
 import Projects from "./Components/Projects"
 import Contact from "./Components/Contact";
+
+
+
 import "./App.css"
 
 export default function App() {
@@ -16,6 +19,7 @@ export default function App() {
 
 <Projects />
 <Contact />
+
 
 
 

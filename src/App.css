@@ -1,5 +1,12 @@
+@font-face {
+  font-family: Tusker-28;
+  src: url("./Components/TuskerGrotesk-2800Super.otf");
+}
 
-
+@font-face {
+  font-family: Tusker-98;
+  src: url("./Components/TuskerGrotesk-9800Super.otf");
+}
 .page{
 
   max-width: 500px;

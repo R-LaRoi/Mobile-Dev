@@ -1,6 +1,12 @@
 
-@media (min-width:551px){
 
+
+@media (min-width:551px){
+.d-block{
+
+position: relative;
+left:28%;
+}
 .pro-section {
 
     background-color: #fff820de;
@@ -15,7 +21,7 @@
     color: rgb(15, 15, 15);
     margin-bottom: 0;
     position: relative;
-    margin-top: 27%;
+    margin-top: 24%;
     font-family: Arial, Helvetica, sans-serif
 
 
@@ -29,29 +35,62 @@ text-transform: uppercase;
 
 }
 
-.card {
-  background-color: #ffffffed;
-  height: 400px;
-  width: 700px;
-  display: flex;
-position: relative;
-left: 40%;
-bottom: 30%;
+.two-col{
+display: flex;
 
+}
+
+.slider {
+  background-color: #ff95015e;
+width: 100vw;
+  /* height: 80vh; */
+ padding: 2rem;
+ /* border-radius: 20px; */
+
+}
+
+.p-title{
+font-family: 'Tusker-98';
+font-size: 1rem;
+width: 500px;
 
 }
 
 .p-text{
-
+font-family: 'Courier New', Courier, monospace;
+font-size: .7rem;
   width: 400px;
 }
+.carousel-caption {
+  margin-top: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  position: relative;
+  margin-right: 30%;
 }
+
+
+}
+
+
+
+
+
+
+
+
 @media (max-width:550px) {
 
-
+.carousel-caption {
+    /* margin-top: 30px; */
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    /* position: relative;
+    margin-right: 30%; */
+  }
 
 .pro-section{
-  margin-top: -10%;
+  margin-top: -1%;
 background-color: #ffe600;
   height: 100vh;
   padding: 70px 50px;
@@ -67,20 +106,52 @@ background-repeat: no-repeat;
 
 }
 
-.card{
-background-color: #ebebeb99;
-height: 400px;
-width: 300px;
-display: flex;
-justify-content: space-around;
-margin-left: 45px;
 
-
-}
 .pro-header {
   font-family: "Tusker-28";
   font-size: 7rem;
   text-transform: uppercase;
+
+
+}
+
+.two-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.slider {
+  height: 300px;
+  width: 300px;
+  background-color: #f8b200ed;
+border-radius: 10px;
+position: relative;
+left:70px;
+padding: 10px;
+
+
+}
+
+.p-title {
+  font-family: 'Tusker-98';
+  font-size: 1rem;
+  width: 400px;
+
+
+}
+
+.p-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: .7rem;
+  width: 400px;
+}
+
+.d-block{
+margin-left: 25%;
+  display: flex;
+  justify-content: space-around;
 
 
 }
