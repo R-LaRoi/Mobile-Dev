@@ -10,7 +10,7 @@ body {
 margin-bottom: 0;
     position: relative;
     height: 100vh;
-    color: rgb(21, 21, 21);
+      color: rgb(27, 27, 27);
     padding-left: 12%;
 
   }
@@ -61,7 +61,7 @@ letter-spacing: 3.4px;
     width: 100vw;
     position: relative;
     height: 100vh;
-    color: rgb(15, 15, 15);
+    color: rgb(27, 27, 27);
       background-color: #FF1034;
   }
 
@@ -88,7 +88,7 @@ letter-spacing: 3.4px;
     line-height: 1.1;
     padding-left: 15px;
     margin-top: 12rem;
-    color: rgb(20, 20, 20);
+        color: rgb(27, 27, 27);
 
   }
 
