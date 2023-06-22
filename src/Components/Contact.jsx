@@ -47,6 +47,25 @@ if (sendMessage) {
     <div className= 'contact-section'>
 
         <img src={elephant} alt="" className='elephant'/>
+          
+          
+           <div className='icons'>
+              <div className='p-title'>LET'S BUILD.<div>
+                
+                <a href="https://github.com/R-LaRoi/" target= "_blank" alt="no alternative text"><i className="fa-brands fa-github icon"></i></a> 
+                
+                <a href="https://www.linkedin.com/in/rachel-stroy-978397277" target= "_blank" alt="no alternative text">
+       <i class="fa-brands fa-linkedin-in icon"></i></a>
+
+
+       <a href='https://www.rachelstroy.com/' target= "_blank" alt="no alternative text"><i class="fa-solid fa-palette icon"></i></a>
+       
+       </div> 
+        </div>
+        </div>
+
+
+
          <div className='contact-header'>
            
       <div className='link-card'>  

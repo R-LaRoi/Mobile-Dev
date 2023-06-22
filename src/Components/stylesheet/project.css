@@ -1,16 +1,22 @@
 
+a{
 
+  color: black;
+}
 
 @media (min-width:551px){
 .d-block{
 
+border-bottom: 30px solid rgb(25, 25, 25);
+  padding: 19px;
+  /* background-color: rgb(22, 21, 21); */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+    border-radius: 4px;
 position: relative;
-left:28%;
+left:14%;
 }
 .pro-section {
-  background-color: #fcd700;
-/* background-color: #ffe600; */
-    /* background-color: #fff820de; */
+  background-color: #fff707ed;
     height: 100vh;
     width: 100vw;
     padding: 70px 50px;
@@ -22,9 +28,8 @@ left:28%;
     color: rgb(15, 15, 15);
     margin-bottom: 0;
     position: relative;
-    margin-top: 24%;
+    margin-top: 34%;
     font-family: Arial, Helvetica, sans-serif
-
 
   }
 
@@ -42,11 +47,10 @@ display: flex;
 }
 
 .slider {
-  /* background-color: #ff95015e; */
+
 width: 100vw;
-  /* height: 80vh; */
  padding: 2rem;
- /* border-radius: 20px; */
+
 
 }
 
@@ -64,12 +68,12 @@ font-size: .7rem;
 }
 .carousel-caption {
   margin-top: 30px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'arial', Courier, monospace;
+  font-size: 1rem;
   color: black;
   position: relative;
   margin-right: 30%;
 }
-
 
 }
 
@@ -82,28 +86,25 @@ font-size: .7rem;
 
 @media (max-width:550px) {
 
-.carousel-caption {
-    /* margin-top: 30px; */
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-    /* position: relative;
-    margin-right: 30%; */
-  }
+
 
 .pro-section{
-  margin-top: -1%;
-background-color: #fcd700;
+margin-top: 60px;
+   background-color: #ffe70e;
+
+padding: 35px;
   height: 100vh;
-  padding: 70px 50px;
+
 background-image: url('./bird.png');
-background-size: 790px;
-background-position: -380px 450px;
+background-size: 890px;
+background-position: -475px 500px;
 background-repeat: no-repeat;
   text-align: center;
   color: rgb(15, 15, 15);
   margin-bottom: 0;
     position: relative;
-    height: 100vh;
+ 
+   
 
 }
 
@@ -112,7 +113,8 @@ background-repeat: no-repeat;
   font-family: "Tusker-28";
   font-size: 7rem;
   text-transform: uppercase;
-
+letter-spacing: 1.5px;
+padding-top: 50px;
 
 }
 
@@ -120,41 +122,42 @@ background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  gap: 40px;
 
 }
 
 .slider {
-  margin-top: 30px;
   height: 300px;
-  /* width: 300px;
-  background-color: #f8b200ed; */
 border-radius: 10px;
 position: relative;
-padding: 0px;
 
 
 }
 
 .p-title {
   font-family: 'Tusker-98';
-  font-size: 1rem;
-  width: 400px;
+  font-size: 1.1rem;
+
 
 
 }
 
 .p-text {
   font-family: 'Courier New', Courier, monospace;
-  font-size: .7rem;
-  width: 400px;
+  font-size: .8rem;
+  max-width: 350px;
+  margin-left: 15px;
+
 }
 
 .d-block{
-margin-left: 25%;
-  display: flex;
-  justify-content: space-around;
-
-
+border-bottom: 30px solid rgb(25, 25, 25);
+  padding: 19px;
+  /* background-color: rgb(22, 21, 21); */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+  border-radius: 4px;
+  position: relative;
+  left: 14%;
 }
 
 }

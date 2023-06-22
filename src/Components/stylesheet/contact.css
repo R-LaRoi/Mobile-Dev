@@ -1,12 +1,26 @@
+i{
+/* background-color: #1d1d1d9e; */
+background-color: #1d1d1d;
+padding: 20px;
+  color: #FF7F11;
+font-size: 1.5rem;
+border-radius: 20px;
+margin-right: 9px;
+margin-top: 9px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
 @media (max-width:550px) {
      .mobile-form {
         height: 350px;
-        width: 370px;
+        width: 350px;
         position: absolute;
         top: 120px;
-        /* background-color: #1d1d1d9e; */
+        background-color: #1d1d1d9e;
           color: rgb(30, 30, 30);
-            padding: 20px;
+           left: 30px;
         }
 
             
@@ -15,33 +29,21 @@
   margin-bottom: 0;
     position: relative;
     color: rgb(27,27,27);
-/* height: 100vh; */
+height: 100vh;
   background-color: #FF7F11;
-/*  d */
+text-align: center;
 }
 
-
-
-.link-card{
-height: 330px;
-background-color: rgba(252, 169, 60, 0.787);
-width: 380px;
-position: relative;
-top: 80px;
-left: 80px;
-
-z-index: 1;
-
-}
 
 .elephant{
 position: relative;
 /* right: 90px; */
-  width: 520px;
+  width: 370px;
   z-index: 9;
   /* top: 150px; */
 
 }
+
 
 .contact-header{
 z-index: 9;
@@ -53,13 +55,6 @@ line-height: .92;
 
 
 
-.mobile-form {
- position: relative;
-top: -10%;
-
-
-
-}
 
 }
 
