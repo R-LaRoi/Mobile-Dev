@@ -12,8 +12,8 @@ export default function Projects() {
     projects
     <div className='p-title'>
   REACT | JAVASCRIPT | HTML | CSS
-  <p className='p-text'>
-  Interested in building user interfaces that integrate new technologies and design patterns. Committed to creating projects that will engage and provide new perspectives.
+  <p className='text'>
+  Interested in building user interfaces that integrate new technologies and design patterns and committed to creating projects that will engage and provide new perspectives.
 </p>
 </div>
 

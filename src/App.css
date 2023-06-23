@@ -8,6 +8,27 @@
   src: url("./Components/TuskerGrotesk-9800Super.otf");
 }
 
-body{
-overflow-x: hidden;
+
+@media  (max-width: 500px){
+html,
+  body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #ffffff; */
+    user-select: none;
+    overflow-x: hidden;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 30px auto;
+
+  
+}
 }

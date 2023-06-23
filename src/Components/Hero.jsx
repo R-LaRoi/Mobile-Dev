@@ -6,11 +6,13 @@ export default function Hero() {
   return(
     
  <>
-<main className='hp-container'>  
+<main className='hp-container container'>  
 <img className= "mobile-img" src={mobileGif} alt="no alternative text"  />
 
 <div className='title-mobile'> 
-<div className='name'>meet rachel</div>
+<div className=' p-title' id="meet">meet</div>
+<div className='name'> <span className="dsk-name">
+meet</span> rachel</div>
 <div className="sub-title">CREATIVE DEVELOPER</div>
 <div className="rectangle"></div>
 </div>

@@ -4,32 +4,53 @@ a{
   color: black;
 }
 
+#i-slide{
+font-size: 1.5rem;
+  color: #fbfbfb;
+padding: 8px;
+  border-radius: 6px;
+}
+  
+#i-slide:hover{
+  color: #ffe70e;
+box-shadow: rgba(255, 255, 255, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+font-size: 1.8rem;
+
+}
+.d-print-block{
+  position: relative;
+color: rgb(22, 22, 22);
+display: block !important;
+margin-left: -75px;
+font-size: 1rem;
+line-height: 1.5;
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: 700;
+}
+
 @media (min-width:551px){
 .d-block{
-
-border-bottom: 30px solid rgb(25, 25, 25);
   padding: 19px;
-  /* background-color: rgb(22, 21, 21); */
-    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
     border-radius: 4px;
 position: relative;
 left:14%;
 }
+
 .pro-section {
   background-color: #fff707ed;
     height: 100vh;
     width: 100vw;
-    padding: 70px 50px;
+    padding: 40px 50px;
     background-image: url('./bird.png');
     background-size: 1090px;
     background-position: -380px 350px;
     background-repeat: no-repeat;
-    /* text-align: center; */
     color: rgb(15, 15, 15);
     margin-bottom: 0;
     position: relative;
-    margin-top: 34%;
-    font-family: Arial, Helvetica, sans-serif
+ margin-top: 15%;
+    
+  
 
   }
 
@@ -47,11 +68,14 @@ display: flex;
 }
 
 .slider {
-
-width: 100vw;
- padding: 2rem;
-
-
+background-color: rgba(19, 19, 20, 0.944);
+ padding: .8rem;
+border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  margin-bottom: 10px;
+  max-width: 700px;
+margin-left: 80px;
+height: 700px;
 }
 
 .p-title{
@@ -61,18 +85,28 @@ width: 500px;
 
 }
 
-.p-text{
-font-family: 'Courier New', Courier, monospace;
-font-size: .7rem;
+.text{
+font-family: 'Poppins', sans-serif;
+font-size: 1rem;
   width: 400px;
 }
 .carousel-caption {
-  margin-top: 30px;
-  font-family: 'arial', Courier, monospace;
-  font-size: 1rem;
-  color: black;
+  margin-top: 20px;
+  font-weight: 300;
+font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: rgb(219, 219, 219);
   position: relative;
-  margin-right: 30%;
+  margin-right: 17%;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.cap-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: .7rem;
+
+
 }
 
 }
@@ -89,19 +123,19 @@ font-size: .7rem;
 
 
 .pro-section{
-margin-top: 60px;
-   background-color: #ffe70e;
+margin-top: 20px;
+   background-color: #fff707ed;
 
 padding: 35px;
-  height: 100vh;
-
+  height: 110vh;
+font-family: 'Roboto Condensed', sans-serif;
 background-image: url('./bird.png');
 background-size: 890px;
 background-position: -475px 500px;
 background-repeat: no-repeat;
   text-align: center;
   color: rgb(15, 15, 15);
-  margin-bottom: 0;
+
     position: relative;
  
    
@@ -127,10 +161,11 @@ padding-top: 50px;
 }
 
 .slider {
-  height: 300px;
+  height: 400px;
 border-radius: 10px;
 position: relative;
-
+background-color: rgba(0, 0, 0, 0.738);
+box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 
 }
 
@@ -142,8 +177,9 @@ position: relative;
 
 }
 
-.p-text {
-  font-family: 'Courier New', Courier, monospace;
+.text {
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: 300;
   font-size: .8rem;
   max-width: 350px;
   margin-left: 15px;
@@ -151,13 +187,35 @@ position: relative;
 }
 
 .d-block{
-border-bottom: 30px solid rgb(25, 25, 25);
+
   padding: 19px;
-  /* background-color: rgb(22, 21, 21); */
-  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+  
+
+  
   border-radius: 4px;
   position: relative;
   left: 14%;
 }
+.carousel-caption {
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: rgb(241, 236, 236);
+  position: relative;
+  margin-right: 10%;
+  line-height: 1;
+  letter-spacing: 2px;
+  padding: 5px;
+}
+
+.cap-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+
+}
+
+
 
 }

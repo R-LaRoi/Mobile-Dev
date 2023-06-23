@@ -8,9 +8,15 @@ let cardSlides = data.map((cards,index) => {
 return(
       <div className="carousel-item">
       <img className="d-block w-75" src={cards.image}  key={index} alt=""/>
-      <div className="carousel-caption d-none d-md-block">
-    <h5>{cards.title}</h5>
-    <p>{cards.text}</p>
+      <div className="carousel-caption d-print-block d-md-block">
+    <div id='cap'>{cards.title.toUpperCase()}</div>
+    <p className='cap-text'>{cards.text}</p>
+
+    <div>
+         <a href={cards.link}><i className="fa-solid fa-paper-plane" id='i-slide'></i></a>
+      <a href={cards.git}><i className="fa-brands fa-github" id='i-slide'></i></a>
+      
+      </div>
   </div>
     </div>
 
@@ -24,20 +30,19 @@ return(
 
 <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
   <div className="carousel-inner"  >
+   
+   
     <div className="carousel-item active">
       <img className="d-block w-75" src={slide} alt="fitness profile"/>
-      <div className="carousel-caption d-none d-md-block">
-    <h5>fitness coach mobile app</h5>
+      <div className="carousel-caption d-print-block d-md-block">
+    <div>fitness coach mobile app</div>
     <p>whats the move</p>
   </div>
     </div>
     {cardSlides}
    
   
-    {/* <div className="carousel-item">
-      <img className="d-block w-75" src="" alt="last slide"/>
- ###
-    </div> */}
+  
   </div>
 
   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

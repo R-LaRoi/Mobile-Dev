@@ -8,25 +8,45 @@ body {
   }
 .hp-container {
 margin-bottom: 0;
+display: flex;
     position: relative;
     height: 100vh;
       color: rgb(23, 22, 22);
-      /* margin-left: 20%; */
+        background-image: url('./redMobile.gif');
+          background-size: 400px;
+          background-position: -20px 145px;
+          background-repeat: no-repeat;
+
+  
 
 
   }
+  #meet{
+   
+    line-height: 1.5;
+    letter-spacing: 4px;
+    font-size: 2rem;
+  }
 .name{
-  padding-top: 10px;
-  line-height: 8.5rem;
+  
+  padding-top: 0px;
+  line-height: 12rem;
   padding-bottom: 30px;
+  font-size: 12rem;
+  letter-spacing: 11px;
 }
 
+.dsk-name{
+  display: none;
+}
             .mobile-img {
+              display: none;
               width: 387px;
-      position: relative;
-            top:218px;
+      position: absolute;
+            top:215px;
               z-index: 1;
               margin-bottom: 0;
+
             }
 
 
@@ -35,13 +55,12 @@ margin-bottom: 0;
   font-family: 'Tusker-28', sans-serif;
   overflow: hidden;
   font-weight: 800;
-  font-size: 8rem;
-  position: relative;
-  bottom:600px;
+  position: absolute;
+  bottom:550px;
   text-transform:uppercase;
 
-  padding-left: 32px;
-  margin-top: -2rem;
+  padding-left: 2px;
+
 
   z-index: 9;
 
@@ -49,9 +68,9 @@ margin-bottom: 0;
 
             .sub-title{
 font-family: 'Tusker-98', sans-serif;
-font-size: 1rem;
-/* line-height: 1; */
-letter-spacing: 3.5px;
+font-size: .8rem;
+line-height: 1;
+letter-spacing: 5px;
 position: relative;
 bottom: 40px;
             }
@@ -63,25 +82,25 @@ bottom: 40px;
   body {
     background-color: #FF1034;
     margin: 0;
+
   }
 
   .hp-container {
-margin-top: -20%;
+/* margin-top: -30%; */
     width: 100vw;
     position: relative;
     height: 100vh;
     color: rgb(27, 27, 27);
       background-color: #FF1034;
+   
   }
 
 
-     .mobile-img {
-       width: 590px;
-
-position: relative;
-top: 214px;
+     .mobile-img { 
+       width: 550px;
        z-index: 1;
        margin-bottom: 0;
+
      }
 
 
@@ -90,22 +109,25 @@ top: 214px;
     font-family: 'Tusker-28', sans-serif;
     overflow: hidden;
     font-weight: 800;
-    font-size: 16rem;
+    font-size: 18rem;
     position: relative;
-    bottom: 650px;
-    left: 50%;
+    bottom: 480px;
+    left: 45%;
     text-transform: uppercase;
     line-height: 1.1;
-    padding-left: 15px;
-    margin-top: 12rem;
+ 
+    margin-top: 1rem;
         color: rgb(27, 27, 27);
 
   }
 
   .sub-title {
     font-family: 'Tusker-98', sans-serif;
-    font-size: 2.09rem;
+    font-size: 2.3rem;
     margin-top: -15px;
-    letter-spacing: 3.4px;
+    letter-spacing: 3.5px;
+  }
+  #meet{
+    display: none;
   }
 }
