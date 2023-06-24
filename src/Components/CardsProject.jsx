@@ -1,5 +1,5 @@
 import data from './ProjectData'
-import slide from './assets/slide1.png'
+import slide6 from './assets/slide6.png'
 
 export default function CardsProject(){
 
@@ -33,10 +33,10 @@ return(
    
    
     <div className="carousel-item active">
-      <img className="d-block w-75" src={slide} alt="fitness profile"/>
+      <img className="d-block w-75" src={slide6} alt="no alt text"/>
       <div className="carousel-caption d-print-block d-md-block">
-    <div>fitness coach mobile app</div>
-    <p>whats the move</p>
+    <div>Password Generator</div>
+ 
   </div>
     </div>
     {cardSlides}
@@ -61,4 +61,4 @@ return(
 
 }
 
-console.log(slide)
+

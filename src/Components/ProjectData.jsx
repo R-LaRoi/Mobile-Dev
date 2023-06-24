@@ -3,10 +3,9 @@ import slide2 from'./assets/slide2.png'
 import slide3 from'./assets/slide3.png'
 import slide4 from'./assets/slide4.png'
 import slide5 from'./assets/slide5.png'
-import slide6 from'./assets/slide6.png'
 import shop from './assets/shopIcon.png'
 import sevenday from './assets/sevenday.png'
-import brown from './assets/brown.png'
+import dash from './assets/dash.png'
 
 const data =  [
 
@@ -59,11 +58,11 @@ git:'https://github.com/R-LaRoi/writers-block-v3',
 link:'https://writers-block-13d59d.netlify.app/'
   },{
     id:6, 
-    image:slide6,
-    title: 'Password Generator',
-  text:'javascript',
-git:'',
-link:''
+    image:dash,
+    title: 'The Purple Cat',
+  text:'Chrome Extension',
+git:'https://app.netlify.com/sites/the-purple-cat-dbext-a811b8/settings/general',
+link:'https://the-purple-cat-dbext-a811b8.netlify.app/'
   },
   {
     id:7, 
@@ -84,15 +83,7 @@ git:'https://github.com/R-LaRoi/7-Day-Forecast',
 link:'https://sevendayweatherappsaintanse.netlify.app/'
   },
 
-  {
-    id:9,
-   image:brown,
-    title: 'BrownBear Dashboard',
-  text:'Chrome Extension',
-git:'https://github.com/R-LaRoi/brown-bear-db',
-link:'https://glittery-starlight-a811b8.netlify.app/'
-
-},
+ 
 
 
 ]
