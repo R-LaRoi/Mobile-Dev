@@ -103,7 +103,7 @@ margin-left: 20px; */
     height: 100vh;
     width: 100vw;
     /* background-color: #fc2f00; */
-background-color: #fc5e15;
+background-color: #ffffff;
     display: grid;
     grid-template-columns: 1fr 1fr;
    
@@ -159,7 +159,7 @@ form {
   border-radius: 10px;
   color: rgb(255, 255, 255);
 
-  padding: 10px;
+  padding: 30px;
 
 }
 
@@ -210,7 +210,7 @@ textarea {
 }
 
 .parallelogram {
-  width: 470px;
+  width: 670px;
   height:690px;
 transform: skew(-12deg);
   background: #FF1034;

@@ -8,6 +8,7 @@ export default function Projects() {
   return(
 <section className='pro-section'>
  <div div className="two-col">
+  {/* <div className="sq-p"></div> */}
   <div className='pro-header'>
     projects
     <div className='p-title'>
