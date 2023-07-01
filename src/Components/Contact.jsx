@@ -59,7 +59,7 @@ console.log(userName)
     <div className= 'contact-section'>
 
         <img src={elephant} alt="" className='elephant'/>
-        
+        <div className="parallelogram"></div>
            <div className='contact-header'>
               <div className='c-text'>
                As an artist and developer innovation is essential throughout my creative process. 

@@ -123,9 +123,9 @@ font-family: 'Poppins', sans-serif;
 
 
 .pro-section{
-margin-top: 20px;
-   background-color: #fff707ed;
-
+margin-top: -10px;
+   /* background-color: #fff707ed; */
+background-color: rgb(20, 20, 20);
 padding: 35px;
   height: 110vh;
 font-family: 'Roboto Condensed', sans-serif;
@@ -134,7 +134,7 @@ background-size: 890px;
 background-position: -475px 500px;
 background-repeat: no-repeat;
   text-align: center;
-  color: rgb(15, 15, 15);
+  color: rgb(232, 232, 232);
 
     position: relative;
  

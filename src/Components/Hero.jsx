@@ -6,7 +6,7 @@ export default function Hero() {
   return(
     
  <>
-<main className='hp-container container'>  
+<main className='hp-container '>  
 <img className= "mobile-img" src={mobileGif} alt="no alternative text"  />
 
 <div className='title-mobile'> 

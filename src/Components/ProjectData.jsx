@@ -8,11 +8,6 @@ import sevenday from './assets/sevenday.png'
 import dash from './assets/dash.png'
 
 const data =  [
-
-
-
-
-
   { 
     id:1,
     image: slide,
