@@ -66,6 +66,7 @@ console.log(userName)
 While new technologies continue to unfold, I am interested in creating meaningful projects that have a positive impact.
      </div>
            <div className='icons'>
+      
               <div className='p-title'>LET'S BUILD.<div>
                 
                 <div className='contact-icons'>
