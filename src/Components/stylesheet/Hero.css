@@ -78,16 +78,23 @@ font-size: 23rem;
          display: none;
         
        }
-  
+
+    .rectangle {
+      position: absolute;
+      top: 90px;
+      left: 30px;
+      height: 115px;
+      width: 204px;
+      background-color: #ffffff;
+      z-index: 1;
+      transform: skewX(20deg);
+    }
        .hp-container {
   
          position: relative;
          height: 100vh;
          color: rgb(23, 23, 23);
-         background-image: url('./redMobile.gif');
-         background-size: 410px;
-         background-position: -30px 105px;
-         background-repeat: no-repeat;
+       
          top: 0px;
          left: 20px;
   
@@ -112,12 +119,13 @@ font-size: 23rem;
        }
   
        .mobile-img {
-         display: none;
-         width: 387px;
-         position: absolute;
-         top: 215px;
-         z-index: 1;
-         margin-bottom: 0;
+            display: inline;
+              width: 450px;
+position: absolute;
+top: 35px;
+              margin-left: -20px;
+         
+              z-index: 1;
 
        }
   

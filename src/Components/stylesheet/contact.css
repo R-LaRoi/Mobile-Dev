@@ -20,83 +20,6 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
-@media (max-width:550px) {
-     .mobile-form {
-        height: 250px;
-        width: 320px;
-       position: relative;
-      
-        background-color: #111111ca;
-          color: rgb(234, 234, 234);
-           left: 40px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        }
-.contact-icons{
-display: flex;
-flex-wrap: wrap;
-width: 250px;
-position: relative;
-left: 110px;
-}
-          
-.c-text{
-  line-height: 1.2;
-width: 300px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-position: relative;
-left: 55px;
-}
-
-
-.contact-section{
-
-
-/* margin-top: 70px; */
-  margin-bottom: 0;
-    position: relative;
-    color: rgb(27,27,27);
-height: 100vh;
-    /* background-color: #ff711e; */
-  /* background-color: #ff7a14; */
-text-align: center;
-
-}
-
-
-.elephant{
-position: relative;
-
-  width: 370px;
-  z-index: 9;
-
- 
-
-}
-
-
-.contact-header{
-z-index: 9;
-  position: relative;
-  bottom: 0px;
-text-align: center;
-/* width: 300px; */
-/* font-family: 'Poppins';
-margin-left: 20px; */
-}
-
-.parallelogram{
-  height: 590px;
-
-}
-
-}
-
-/* ---------------------------------- desktop ------------------------- */
-
-@media (min-width:551px) {
-
-
   .contact-section {
     padding: 50px;
     margin-bottom: 0;
@@ -134,20 +57,18 @@ right: 90px;
 
 .contact-header{
   font-family: "Poppins";
-/* border-radius: 10px; */
-    /* background-color: #1d1d1d9e; */
   margin-top: 35%;
-  box-shadow: rgba(0, 0, 0, 0.509) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
   align-items: center;
   height: 500px;
   padding: 20px;
-  border-left: 20px solid rgb(26, 26, 26);
-}
-
-
-
 
 }
+
+
+
+
+
 
 
 
@@ -217,5 +138,78 @@ textarea {
 transform: skew(-12deg);
   background: #FF1034;
 position: absolute;
-top:270px
+top:270px;
+
+}
+
+@media (max-width:550px) {
+  .mobile-form {
+    height: 250px;
+    width: 320px;
+    position: relative;
+
+    background-color: #111111ca;
+    color: rgb(234, 234, 234);
+    left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    position: relative;
+    left: 90px;
+  }
+
+  .c-text {
+    line-height: 1.2;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    position: relative;
+    left: 55px;
+  }
+
+
+  .contact-section {
+    margin-bottom: 0;
+    position: relative;
+    color: rgb(27, 27, 27);
+    text-align: center;
+
+  }
+
+
+  .elephant {
+    position: relative;
+left: -40px;
+    width: 370px;
+    z-index: 9;
+
+
+
+  }
+
+
+  .contact-header {
+    z-index: 9;
+    position: relative;
+margin-top: -260px;
+    text-align: center;
+    left: -60px;
+
+  }
+
+  .parallelogram {
+  width: 570px;
+    height: 590px;
+left: -300px;
+    background: #FF1034;
+    position: relative;
+
+
+  }
+
+
 }
