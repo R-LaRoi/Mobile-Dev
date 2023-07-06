@@ -5,7 +5,7 @@ body {
 
 
 .hp-container {
-margin-top: -10%;
+margin-top: -15%;
   height: 100vh;
   color: rgb(23, 23, 23);
   background-repeat: no-repeat;
@@ -16,12 +16,15 @@ margin-top: -10%;
 
      .mobile-img { 
  
-       width: 700px;
+       width: 550px;
        z-index: 1;
        margin-bottom: 0;
 
      }
 
+     .mb-txt{
+      display: none;
+     }
 
   .title-mobile {
     letter-spacing: 3.9px;
@@ -29,7 +32,7 @@ margin-top: -10%;
     overflow: hidden;
     font-weight: 800;
     position: relative;
-    bottom: 580px;
+    bottom: 420px;
     left: 40%;
     text-transform: uppercase;
     line-height: 1.1;
@@ -45,26 +48,26 @@ max-width: min-content;
     letter-spacing: 3.5px;
 
   }
-  #meet{
-    display: none;
+  .meet{
+    padding-right:20px ;
   }
 
 
 
    .sq{
-      width: 870px;
-        height: 790px;
+      width: 570px;
+        height: 390px;
         transform: skew(9deg);
         background: #f6f6f6;
         position: absolute;
-        top: 470px;
-     right: 7%;
+        top: 320px;
+     right: 17%;
    }
 
 
    .name{
     width: max-content;
-font-size: 23rem;
+font-size: 18rem;
     letter-spacing: 10px;
    }
 /* -------------media queries -------------------- */

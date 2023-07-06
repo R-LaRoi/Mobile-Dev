@@ -12,7 +12,7 @@ export default function Hero() {
 <div className="rectangle"></div>
 <div className='title-mobile'> 
 <div className='name'> <span className="dsk-name meet">
-meet</span><div style={{fontSize:'2.1rem'}}>meet</div>rachel</div>
+meet</span><div className='mb-txt' style={{fontSize:'2.1rem'}}>meet</div>rachel</div>
 <div className="sub-title">CREATIVE DEVELOPER</div>
 
 </div>

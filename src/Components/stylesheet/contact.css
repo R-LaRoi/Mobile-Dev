@@ -31,7 +31,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 background-color: #ffffff;
     display: grid;
     grid-template-columns: 1fr 1fr;
-   
+
 
   }
 
@@ -57,7 +57,7 @@ right: 90px;
 
 .contact-header{
   font-family: "Poppins";
-  margin-top: 35%;
+  margin-top: 55%;
 
   align-items: center;
   height: 500px;
@@ -133,7 +133,7 @@ textarea {
 }
 
 .parallelogram {
-  width: 770px;
+  width: 720px;
   height:890px;
 transform: skew(-12deg);
   background: #FF1034;
