@@ -85,12 +85,12 @@ font-size: 18rem;
     .rectangle {
       position: absolute;
       top: 90px;
-      left: 30px;
-      height: 115px;
-      width: 204px;
+      left: 50px;
+      height: 65px;
+      width: 124px;
       background-color: #ffffff;
       z-index: 1;
-      transform: skewX(20deg);
+      transform: skewX(7deg);
     }
        .hp-container {
   
@@ -123,10 +123,10 @@ font-size: 18rem;
   
        .mobile-img {
             display: inline;
-              width: 450px;
-position: absolute;
-top: 35px;
-              margin-left: -20px;
+            width: 450px;
+            position: absolute;
+           top: 35px;
+           margin-left: -20px;
          
               z-index: 1;
 
