@@ -1,6 +1,8 @@
 import React from 'react'
 import CardsProject from './CardsProject'
 import "./stylesheet/project.css"
+import ProjectScroll from './ProjectScroll'
+
 
 
 export default function Projects() {
@@ -19,7 +21,12 @@ export default function Projects() {
 </div>
 
   </div>
-  <div className='slider'><CardsProject /></div>
+
+<div className='slider'><CardsProject /></div>
+<div className='mb-scroll'><ProjectScroll/></div>
+  <div>
+
+  </div>
 
 </div>
 

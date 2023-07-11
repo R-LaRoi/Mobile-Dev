@@ -55,20 +55,20 @@ max-width: min-content;
 
 
    .sq{
-      width: 570px;
-        height: 390px;
-        transform: skew(9deg);
-        background: #f6f6f6;
+      width: 620px;
+        height: 320px;
+        transform: skew(10deg);
+        background: #efeeee;
         position: absolute;
-        top: 320px;
-     right: 17%;
+        top: 360px;
+ right: 10%;
    }
 
 
    .name{
     width: max-content;
 font-size: 18rem;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
    }
 /* -------------media queries -------------------- */
 

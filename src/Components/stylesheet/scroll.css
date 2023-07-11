@@ -1,0 +1,30 @@
+
+.mb-project-card{
+  display: grid;
+  grid-template-columns: 1.5fr .5fr;
+border-bottom: .5px solid white;
+color: rgb(225, 224, 224);
+gap: 45px;
+padding: 30px 0px 30px 0px;
+    font-family: 'Poppins', sans-serif;
+/* background-color: rgba(17, 16, 16, 0.785); */
+}
+
+
+
+.thumbnail{
+  width:100px;
+ display: flex;
+
+
+}
+
+.mb-card-text{
+text-align: start;
+font-size: .9rem;
+}
+
+.mb-title{
+  font-weight: 800;
+  font-size: 1.1rem;
+}
