@@ -86,7 +86,7 @@ font-size: 18rem;
       position: absolute;
       top: 90px;
       left: 50px;
-      height: 65px;
+      height: 85px;
       width: 124px;
       background-color: #ffffff;
       z-index: 1;
@@ -158,5 +158,7 @@ font-size: 18rem;
   
        }
 
-      
+                .mb-txt {
+                  display:block;
+                }
      }

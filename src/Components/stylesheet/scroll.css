@@ -15,8 +15,13 @@ padding: 30px 0px 30px 0px;
 .thumbnail{
   width:100px;
  display: flex;
+border-radius: 8px;
 
+}
 
+.thumbnail:hover{
+
+  opacity: 50%;
 }
 
 .mb-card-text{

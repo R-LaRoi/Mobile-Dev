@@ -142,7 +142,7 @@ font-family: 'Poppins', sans-serif;
 .pro-section{
 margin-top: -90px;
    /* background-color: #fff707ed; */
-background-color: rgb(20, 20, 20);
+background-color: rgb(30, 29, 29);
 padding: 35px;
   /* height: 110vh; */
 font-family: 'Roboto Condensed', sans-serif;
@@ -165,7 +165,7 @@ background-repeat: no-repeat;
   font-size: 7rem;
   text-transform: uppercase;
 letter-spacing: 1.5px;
-padding-top: 50px;
+padding-top: 100px;
 
 }
 
@@ -200,7 +200,7 @@ font-weight: 200;
   font-size: .8rem;
 
   margin-left: 15px;
-border-bottom: 1px  solid whitesmoke;
+border-bottom: 2px  solid rgb(58, 58, 58);
 max-width: 310px;
 padding: 20px 0px;
 
