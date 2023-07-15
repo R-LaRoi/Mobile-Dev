@@ -4,6 +4,7 @@ import slide3 from'./assets/slide3.png'
 import slide4 from'./assets/slide4.png'
 import slide5 from'./assets/slide5.png'
 import shop from './assets/shopIcon.png'
+import tsc from './assets/tsc.png'
 import sevenday from './assets/sevenday.png'
 import dash from './assets/dash.png'
 
@@ -16,6 +17,25 @@ const data =  [
 git:'https://github.com/R-LaRoi/writers-block-v3',
 link:'https://writers-block-13d59d.netlify.app/'
   },
+
+
+  { id:2,
+    image: tsc,
+    title: 'TS Consultancy',
+  text: 'HTML | CSS ',
+git:'',
+link:''
+  },
+   { 
+    id:1,
+    image: slide,
+    title: 'what`s the move',
+  text:'REACT | FIREBASE | ',
+git:'https://github.com/R-LaRoi/Move-app',
+link:'https://whatsthemoveapp.netlify.app/'
+
+  },
+
   {
     id:4, 
     image:slide4,
@@ -40,24 +60,9 @@ link:'https://the-purple-cat-dbext-a811b8.netlify.app/'
 git:'https://github.com/R-LaRoi/Shopping-Cart',
 link:'https://shoppingcartlistfb.netlify.app/'
   },
-  { 
-    id:1,
-    image: slide,
-    title: 'what`s the move',
-  text:'REACT | FIREBASE | ',
-git:'https://github.com/R-LaRoi/Move-app',
-link:'https://whatsthemoveapp.netlify.app/'
-
-  },
+ 
 
 
-  { id:2,
-    // image: slide2,
-    title: 'TS Consultancy',
-  text: 'HTML | CSS ',
-git:'',
-link:''
-  },
 
   {
     id:3, 
