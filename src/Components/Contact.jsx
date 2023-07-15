@@ -64,10 +64,13 @@ console.log(userName)
               <div className='c-text'>
                As an artist and developer innovation is essential throughout my creative process. 
 While new technologies continue to unfold, I am interested in creating meaningful projects that have a positive impact.
+<p style={{paddingTop:"10px"}}>
+ I am a globetrotting, fit-for-life coach based in eSwatini.
+</p> 
      </div>
            <div className='icons'>
       
-              <div className='p-title'>LET'S BUILD.<div>
+              <div className='p-title'><div>
                 
                 <div className='contact-icons'>
                 <a href="https://github.com/R-LaRoi/" target= "_blank" alt="no alternative text"><i className="fa-brands fa-github icon"></i></a> 

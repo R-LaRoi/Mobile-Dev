@@ -68,13 +68,6 @@ right: 90px;
 
 
 
-
-
-
-
-
-
-
 form {
   display: flex;
   flex-direction: column;
@@ -144,37 +137,38 @@ top:270px;
 
 @media (max-width:550px) {
   .mobile-form {
-    height: 250px;
-    width: 320px;
+    margin-top: 40px;
+    height: 350px;
+    width: 300px;
     position: relative;
-
-    background-color: #111111ca;
+    background-color: #fffffff0;
     color: rgb(234, 234, 234);
-    left: 40px;
+    left: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
   .contact-icons {
-    display: flex;
-    flex-wrap: wrap;
-    width: 250px;
-    position: relative;
-    left: 90px;
+ 
+
+
   }
 
   .c-text {
     line-height: 1.2;
-    width: 300px;
+    width: 280px;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     position: relative;
-    left: 55px;
+padding-top: 60px;
+color: rgb(39, 38, 38);
+left: 20px;
   }
 
 
   .contact-section {
+margin-top: 60px;
     margin-bottom: 0;
-    position: relative;
+
     color: rgb(27, 27, 27);
     text-align: center;
 
@@ -183,7 +177,7 @@ top:270px;
 
   .elephant {
     position: relative;
-left: -40px;
+left: -20px;
     width: 370px;
     z-index: 9;
 
@@ -195,21 +189,24 @@ left: -40px;
   .contact-header {
     z-index: 9;
     position: relative;
-margin-top: -260px;
-    text-align: center;
-    left: -60px;
+  right: 390px;
+margin-top: 200px;
 
   }
 
-  .parallelogram {
-  width: 570px;
-    height: 590px;
-left: -300px;
-    background: #FF1034;
-    position: relative;
-
-
+  .parallelogram{
+height: 620px;
+top:460px
   }
+i {
 
+  background-color: #1d1d1d;
+  padding: 15px;
+  color: #e3e3e3;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
 
 }
