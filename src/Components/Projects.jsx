@@ -36,7 +36,7 @@ return(
   return(
 <section className='pro-section'>
  <div className="two-col">
-  {/* <div className="sq-p"></div> */}
+
   <div className='pro-header'>
     projects
     <div className='p-title'>

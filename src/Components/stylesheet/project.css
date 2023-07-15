@@ -117,10 +117,10 @@ left: 45%;
 
 .pro-section{
 margin-top: -90px;
-   /* background-color: #fff707ed; */
+
 background-color: rgb(30, 29, 29);
 padding: 35px;
-  height: 200vh;
+  height: 210vh;
 font-family: 'Roboto Condensed', sans-serif;
 background-image: url('./bird.png');
 background-size: 520px;

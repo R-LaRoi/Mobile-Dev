@@ -56,12 +56,13 @@ console.log(userName)
 
   return(
 
-    <div className= 'contact-section'>
+    <div className='contact-section'>
 
         <img src={elephant} alt="" className='elephant'/>
         <div className="parallelogram"></div>
            <div className='contact-header'>
-              <div className='c-text'>
+              {/*  */}
+                  <div className='c-text'>
                As an artist and developer innovation is essential throughout my creative process. 
 While new technologies continue to unfold, I am interested in creating meaningful projects that have a positive impact.
 <p style={{paddingTop:"10px"}}>
@@ -84,7 +85,7 @@ While new technologies continue to unfold, I am interested in creating meaningfu
      
        </div>
        </div> 
-       
+   
         </div>
          
         </div>
