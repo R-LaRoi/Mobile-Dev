@@ -1,183 +1,154 @@
+.mb-scroll {
+  display: none;
+}
 
-.mb-scroll{display: none;}
-
-
-.grid{
-
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-
 }
 
 .pro-section {
-
-background-color: rgb(20, 20, 20);
-    height: 150vh;
-    /* width: 100vw; */
-    padding: 40px 50px;
-    background-image: url('./bird.png');
-    background-size: 1090px;
-    background-position: -380px 350px;
-    background-repeat: no-repeat;
+  background-color: rgb(20, 20, 20);
+  height: 170vh;
+  width: 100vw;
+  padding: 40px 50px;
+  background-image: url("./bird.png");
+  background-size: 1090px;
+  background-position: -380px 350px;
+  background-repeat: no-repeat;
   color: rgb(232, 232, 232);
-    margin-bottom: 0;
-
- margin-top: 14%;
-    
-  
-
-  }
-
-.pro-header{
-font-family: "Tusker-28";
-font-size: 12rem;
-text-transform: uppercase;
-
-
+  margin: 0px;
 }
 
-.two-col{
-display: flex;
-
+.pro-header {
+  font-family: "Tusker-28";
+  font-size: 12rem;
+  text-transform: uppercase;
 }
 
-
-
-.p-title{
-font-family: 'Tusker-98';
-font-size: 1rem;
-width: 350px;
-letter-spacing: 2px;
-
+.two-col {
+  display: flex;
 }
 
-.text{
-    color: rgb(154, 153, 153);
-font-family: 'Poppins', sans-serif;
-font-size: 1rem;
+.p-title {
+  font-family: "Tusker-98";
+  font-size: 1rem;
+  width: 350px;
+  letter-spacing: 2px;
+}
+
+.text {
+  color: rgb(154, 153, 153);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
   width: 400px;
   text-transform: none;
   letter-spacing: 1px;
 }
 
-.dk-project-card{
-padding: 35px;
-background-color: rgba(31, 31, 31, 0.876);
-  font-family: 'poppins';
-border-radius: 10px;
-text-align: center;
-letter-spacing: 1px;
-
+.dk-project-card {
+  padding: 35px;
+  background-color: rgba(31, 31, 31, 0.876);
+  font-family: "poppins";
+  border-radius: 10px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
-.dk-title{
+.dk-title {
   padding-top: 10px;
 }
-.dk-description{
-
-font-size: .8rem;
+.dk-description {
+  font-size: 0.8rem;
   color: rgb(154, 153, 153);
 }
-.img-project{
-width: 160px;
-border-radius: 8px;
-box-shadow: rgba(0, 0, 0, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-
+.img-project {
+  width: 160px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.img-project:hover{
-
+.img-project:hover {
   opacity: 50%;
 }
-.mb-project{
+.mb-project {
   display: none;
 }
 
-
-.pro-cards{
-padding: 30px;
-position: absolute;
-left: 45%;
-
+.pro-cards {
+  padding: 30px;
+  position: absolute;
+  left: 45%;
 }
 
+@media screen and (min-width: 570px) and (max-width: 1250px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
 
-
-
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .slider {
-      display: none;
-    }
+    display: none;
+  }
 
-.mb-scroll{
-  display: block;
-}
+  .mb-scroll {
+    display: block;
+  }
 
+  .pro-section {
+    margin-top: -90px;
 
-.pro-section{
-margin-top: -90px;
-
-background-color: rgb(30, 29, 29);
-padding: 35px;
-  height: 210vh;
-font-family: 'Roboto Condensed', sans-serif;
-background-image: url('./bird.png');
-background-size: 520px;
-background-position: -325px 500px;
-background-repeat: no-repeat;
-  text-align: center;
-  color: rgb(232, 232, 232);
+    background-color: rgb(30, 29, 29);
+    padding: 35px;
+    height: 210vh;
+    font-family: "Roboto Condensed", sans-serif;
+    background-image: url("./bird.png");
+    background-size: 520px;
+    background-position: -325px 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(232, 232, 232);
 
     position: relative;
- 
-   
+  }
 
-}
+  .pro-header {
+    font-family: "Tusker-28";
+    font-size: 7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-top: 100px;
+  }
 
+  .two-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 40px;
+  }
 
-.pro-header {
-  font-family: "Tusker-28";
-  font-size: 7rem;
-  text-transform: uppercase;
-letter-spacing: 1.5px;
-padding-top: 100px;
+  .p-title {
+    font-family: "Tusker-98";
+    font-size: 1.1rem;
+  }
 
-}
+  .text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
 
-.two-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  gap: 40px;
+    margin-left: 15px;
+    border-bottom: 2px solid rgb(58, 58, 58);
+    max-width: 310px;
+    padding: 20px 0px;
+  }
 
-
-}
-
-
-
-.p-title {
-  font-family: 'Tusker-98';
-  font-size: 1.1rem;
-
-
-
-}
-
-.text {
-font-family: 'Poppins', sans-serif;
-font-weight: 200;
-  font-size: .8rem;
-
-  margin-left: 15px;
-border-bottom: 2px  solid rgb(58, 58, 58);
-max-width: 310px;
-padding: 20px 0px;
-
-}
-
-.pro-cards{
-  display: none;
-}
-
+  .pro-cards {
+    display: none;
+  }
 }

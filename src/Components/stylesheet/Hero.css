@@ -1,171 +1,166 @@
 body {
-  background-color: #FF1034;
   margin: 0;
 }
 
-
 .hp-container {
-margin-top: -15%;
-  height: 100vh;
   color: rgb(23, 23, 23);
-position: relative;
-  top: 0px;
-
-
+  position: relative;
+  display: flex;
+  background-image: url("./redMobile.gif");
+  background-repeat: no-repeat;
+  background-color: #ff1034;
+  height: 100vh;
+  background-size: 495px;
+  background-position: 150px;
 }
 
-     .mobile-img { 
- 
-       width: 599px;
-       z-index: 1;
-       margin-bottom: 0;
-position: relative;
-     }
+.mobile-img,
+.meet {
+  display: none;
+}
 
-     .mb-txt{
-      display: none;
-     }
+.name {
+  font-family: "Tusker-98";
+  font-size: 8rem;
+  line-height: 1.2;
+  letter-spacing: 8px;
+}
+
+.sub-title {
+  font-family: "Tusker-98";
+  font-size: 2.8rem;
+  letter-spacing: 5px;
+  line-height: 1;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+.title-mobile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 43%;
+  top: 40%;
+}
+
+.mb-txt {
+  font-family: "Tusker-98";
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.sq {
+  width: 530px;
+  height: 350px;
+  transform: skew(10deg);
+  background: #efeeee;
+  position: relative;
+  top: 330px;
+  right: -60%;
+  display: flex;
+}
+
+/* -------------media queries -------------------- */
+
+@media screen and (min-width: 570px) and (max-width: 1250px) {
+  .title-mobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 13%;
+    top: 40%;
+  }
+
+  .sq {
+    width: 530px;
+    height: 350px;
+    transform: skew(10deg);
+    background: #efeeee;
+    position: relative;
+    top: 330px;
+    right: -40%;
+    display: flex;
+  }
+
+  .hp-container {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    background-color: white;
+  }
+
+  .sq {
+    display: none;
+  }
+
+  .rectangle {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    height: 85px;
+    width: 124px;
+    background-color: #ffffff;
+    z-index: 1;
+    transform: skewX(7deg);
+  }
+  .hp-container {
+    position: relative;
+    height: 100vh;
+    color: rgb(23, 23, 23);
+
+    top: 0px;
+    left: 20px;
+
+    max-width: 350px;
+  }
+
+  .name {
+    line-height: 1;
+    padding: 40px 30px;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-family: "Tusker-98", sans-serif;
+  }
+
+  .dsk-name {
+    display: none;
+  }
+
+  .mobile-img {
+    display: inline;
+    width: 450px;
+    position: absolute;
+    top: 35px;
+    margin-left: -20px;
+
+    z-index: 1;
+  }
 
   .title-mobile {
-    letter-spacing: 3.9px;
-    font-family: 'Tusker-28', sans-serif;
+    letter-spacing: 0.9px;
+    font-family: "Tusker-28", sans-serif;
     overflow: hidden;
     font-weight: 800;
-    position: relative;
-    bottom: 420px;
-    left: 40%;
+    position: absolute;
+    top: 40px;
     text-transform: uppercase;
-    line-height: 1.1;
-    margin-top: 1rem;
-        color: rgb(27, 27, 27);
-max-width: min-content;
+    left: -20px;
+    z-index: 9;
   }
 
   .sub-title {
-    font-family: 'Tusker-98', sans-serif;
-    font-size: 2.3rem;
-    margin-top: -15px;
-    letter-spacing: 3.5px;
-
+    font-family: "Tusker-98", sans-serif;
+    font-size: 1rem;
+    line-height: 3;
+    letter-spacing: 3px;
+    position: relative;
+    bottom: 40px;
+    left: 30px;
   }
-  .meet{
-    padding-right:20px ;
+
+  .mb-txt {
+    display: block;
   }
-
-
-
-   .sq{
-
-      width: 420px;
-        height: 320px;
-        transform: skew(10deg);
-        background: #efeeee;
-        position: absolute;
-        top: 690px;
- right: 10%;
-   }
-
-
-   .name{
-    width: max-content;
-font-size: 18rem;
-    letter-spacing: 15px;
-   }
-/* -------------media queries -------------------- */
-
-
-
-
-
-
-
-     @media screen and (max-width:550px) {
-       body {
-       background-color: white;
-       }
-  
-       .sq {
-         display: none;
-        
-       }
-
-    .rectangle {
-      position: absolute;
-      top: 90px;
-      left: 50px;
-      height: 85px;
-      width: 124px;
-      background-color: #ffffff;
-      z-index: 1;
-      transform: skewX(7deg);
-    }
-       .hp-container {
-  
-         position: relative;
-         height: 100vh;
-         color: rgb(23, 23, 23);
-       
-         top: 0px;
-         left: 20px;
-  
-         max-width: 350px;
-  
-  
-       }
-  
-     
-  
-       .name {
-         line-height: 1;
-         padding: 40px 30px;
-         font-size: 3rem;
-         letter-spacing: 5px;
-      font-family: 'Tusker-98', sans-serif;
-       
-       }
-  
-       .dsk-name {
-         display: none;
-       }
-  
-       .mobile-img {
-            display: inline;
-            width: 450px;
-            position: absolute;
-           top: 35px;
-           margin-left: -20px;
-         
-              z-index: 1;
-
-       }
-  
-  
-       .title-mobile {
-         letter-spacing: .9px;
-         font-family: 'Tusker-28', sans-serif;
-         overflow: hidden;
-         font-weight: 800;
-         position: absolute;
-         top: 40px;
-         text-transform: uppercase;
-         left: -20px;
-         z-index: 9;
-      
-  
-       }
-  
-       .sub-title {
-         font-family: 'Tusker-98', sans-serif;
-         font-size: 1rem;
-         line-height: 3;
-         letter-spacing: 3px;
-         position: relative;
-         bottom: 40px;
-         left: 30px;
-  
-       }
-
-                .mb-txt {
-                  display:block;
-                }
-     }
+}
