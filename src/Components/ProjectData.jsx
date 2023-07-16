@@ -13,7 +13,7 @@ const data =  [
     id:5, 
     image:slide5,
     title: 'writers block',
-  text:'REACT | Dictionary API',
+  text:'Blog | React ',
 git:'https://github.com/R-LaRoi/writers-block-v3',
 link:'https://writers-block-13d59d.netlify.app/'
   },
@@ -22,15 +22,15 @@ link:'https://writers-block-13d59d.netlify.app/'
   { id:2,
     image: tsc,
     title: 'TS Consultancy',
-  text: 'HTML | CSS ',
+  text: 'Private Consultant Profile | HTML | CSS ',
 git:'',
-link:''
+link:'https://tsc-consultancy-aus.netlify.app/'
   },
    { 
     id:1,
     image: slide,
     title: 'what`s the move',
-  text:'REACT | FIREBASE | ',
+  text:'Daily excercise log. React|Firebase ',
 git:'https://github.com/R-LaRoi/Move-app',
 link:'https://whatsthemoveapp.netlify.app/'
 
@@ -40,7 +40,7 @@ link:'https://whatsthemoveapp.netlify.app/'
     id:4, 
     image:slide4,
     title: 'saint lucia',
-  text:'HTML | CSS | Single Column Read Only Theme',
+  text:'Single Column Theme',
 git:'https://github.com/R-LaRoi/Travel-Saint-Lucia',
 link:'https://saintluciatravel.netlify.app/'
   }
@@ -56,7 +56,7 @@ link:'https://the-purple-cat-dbext-a811b8.netlify.app/'
     id:7, 
     image:shop,
     title: 'Shopping Cart',
-  text:'Firebase App',
+  text:'Firebase | React',
 git:'https://github.com/R-LaRoi/Shopping-Cart',
 link:'https://shoppingcartlistfb.netlify.app/'
   },
