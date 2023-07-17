@@ -15,8 +15,10 @@ let cards = data.map((project,index) => {
 {project.title.toUpperCase()}
 </div>
 <div className='mb-description'>
-  {project.text}
+  {project.text} 
+  
 </div>
+<div><a href={project.git}><i className="fa-brands fa-github icon pro-git"></i></a></div>
 </div>
 
  <a href={project.link}><img src={project.image} className='thumbnail'  key={index.id}/></a>

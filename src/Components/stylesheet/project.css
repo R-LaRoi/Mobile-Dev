@@ -7,7 +7,19 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
+.pro-git {
+  font-size: 1rem;
+  border-radius: 10px;
+  box-shadow: none;
+  position: relative;
+  right: 10px;
+  top: -10px;
+  padding: 10px;
+}
 
+.pro-git:hover {
+  color: rgb(222, 26, 0);
+}
 .pro-section {
   background-color: rgb(20, 20, 20);
   height: 170vh;

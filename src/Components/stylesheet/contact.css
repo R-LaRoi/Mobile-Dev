@@ -1,16 +1,17 @@
 i {
   background-color: #1d1d1d;
-  padding: 15px;
+  padding: 10px;
   color: #e3e3e3;
   font-size: 1.5rem;
   border-radius: 20px;
-  margin-right: 9px;
+  margin-right: 7px;
   margin-top: 9px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .icons {
   position: relative;
+  right: 30px;
 }
 
 .contact-section {
@@ -155,18 +156,18 @@ textarea {
 
   .c-text {
     line-height: 1.2;
-    width: 250px;
+    width: 230px;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     position: relative;
     padding-top: 60px;
     color: rgb(39, 38, 38);
+    left: -15px;
   }
 
   .contact-section {
-    margin-top: 60px;
+    margin-top: 0px;
     margin-bottom: 0;
-
     color: rgb(27, 27, 27);
     text-align: center;
   }
@@ -187,7 +188,7 @@ textarea {
 
   .parallelogram {
     height: 430px;
-    top: 370px;
+    top: 470px;
     transform: skew(-20deg);
   }
   i {

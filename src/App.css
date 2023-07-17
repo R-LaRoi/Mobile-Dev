@@ -8,9 +8,8 @@
   src: url("./Components/TuskerGrotesk-9800Super.otf");
 }
 
-
-@media screen and (max-width: 500px){
-html,
+@media screen and (max-width: 500px) {
+  html,
   body {
     margin: 0;
     padding: 0;
@@ -28,7 +27,8 @@ html,
     flex-direction: column;
     max-width: 350px;
     margin: 30px auto;
-
-  
-}
+  }
+  .page {
+    background-color: #ff1034;
+  }
 }
