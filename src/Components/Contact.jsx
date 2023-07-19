@@ -66,7 +66,7 @@ console.log(userName)
                As an artist and developer innovation is essential throughout my creative process. 
 While new technologies continue to unfold, I am interested in creating meaningful projects that have a positive impact.
 <p style={{paddingTop:"10px"}}>
- I am a globetrotting, fit-for-life coach based in eSwatini.
+In addition to coding, I am a globetrotting, fit-for-life coach, currently based in eSwatini.
 </p> 
      </div>
            <div className='icons'>

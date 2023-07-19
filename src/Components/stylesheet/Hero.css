@@ -25,6 +25,14 @@ body {
   font-size: 8rem;
   line-height: 1.2;
   letter-spacing: 8px;
+  animation: typing 1.5s steps(18, end) forwards;
+  overflow: hidden;
+  border-right: transparent;
+}
+.reveal {
+  animation: typing 1.5s steps(18, end) forwards;
+  overflow: hidden;
+  border-right: transparent;
 }
 
 .sub-title {
@@ -34,6 +42,7 @@ body {
   line-height: 1;
   margin-top: -10px;
   text-transform: uppercase;
+  animation: slide-up-fade 2s forwards;
 }
 .title-mobile {
   display: flex;
@@ -58,6 +67,41 @@ body {
   top: 330px;
   right: -60%;
   display: flex;
+}
+
+/* ----------key frames-------------- */
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+
+  to {
+    border-color: #d72638;
+  }
+}
+
+@keyframes slide-up-fade {
+  from {
+    top: 200px;
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  to {
+    top: 100px;
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
 
 /* -------------media queries -------------------- */

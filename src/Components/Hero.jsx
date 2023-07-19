@@ -11,7 +11,7 @@ export default function Hero() {
 <div className="sq"></div>
 <div className="rectangle"></div>
 <div className='title-mobile'> 
-<div className='name'> <span className="dsk-name meet">
+<div className='name '> <span className="dsk-name meet">
 meet</span><div className='mb-txt'>meet</div>RACHEL</div>
 
 <div className="sub-title">CREATIVE DEVELOPER</div>
