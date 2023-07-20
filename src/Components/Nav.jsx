@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './stylesheet/nav.css'
 
 
 
@@ -7,16 +8,16 @@ export default function Nav(){
 
 return(
 
-   <ul className="nav-corner">        
-
-       <li>
-          <Link to="/projects" className="nav sq-3">projects</Link>
+   <ul className="nav-bar">        
+  <li>
+         <Link to="/main" className="nav"><i className="fa-solid fa-location-arrow"></i></Link>
          </li>
        <li>
-          <li>
-         <Link to="/goals" className="nav sq-2">goals</Link>
+          <Link to="/projects" className="nav">projects</Link>
          </li>
-         <Link to="/contact" className="nav sq-4">contact</Link>
+       <li>
+        
+         <Link to="/contact" className="nav">contact</Link>
          </li>
       </ul>
 )

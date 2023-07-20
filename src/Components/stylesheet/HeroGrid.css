@@ -1,0 +1,240 @@
+.hero-grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "title projects"
+    "title connect";
+}
+
+.title {
+  padding: 30px;
+  background-color: #ff1034;
+  grid-area: title;
+  background-image: url("./redMobile.gif");
+  background-size: 520px;
+  background-position: -180px -65px;
+  background-repeat: no-repeat;
+}
+
+.hero-name {
+  position: relative;
+  top: 43%;
+  left: 33%;
+  z-index: 9;
+  font-family: "Tusker-98";
+  font-size: 4rem;
+  line-height: 1.2;
+  letter-spacing: 6px;
+  animation: slide-up-fade 1s forwards;
+}
+.sq {
+  width: 454px;
+  height: 40px;
+  transform: skew(1deg);
+  background: #efeeee;
+  position: relative;
+  top: 510px;
+  right: -33%;
+  display: flex;
+  z-index: 1;
+  animation: slide-up-fade 2s forwards;
+}
+.hero-meet {
+  position: relative;
+  top: 12px;
+  font-size: 1.5rem;
+}
+.hero-sub {
+  font-family: "Tusker-98";
+  font-size: 1.3rem;
+  letter-spacing: 4.5px;
+  line-height: 1;
+  margin-top: -3px;
+  text-transform: uppercase;
+}
+.projects {
+  text-align: center;
+  padding: 10px;
+  font-family: "Tusker-98";
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-color: #fcfcfc;
+  grid-area: projects;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  letter-spacing: 2.5px;
+}
+
+.hero-project {
+  position: relative;
+  top: 43%;
+  animation: slide-up-fade 2s forwards;
+}
+.connect {
+  text-align: center;
+  padding: 10px;
+  font-family: "Tusker-98";
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-color: rgb(34, 34, 34);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  grid-area: connect;
+  color: #efeeee;
+  letter-spacing: 3.5px;
+}
+
+.connect:hover {
+  background-color: #fcfcfc;
+  color: #ff1034;
+  font-size: 2.5rem;
+}
+
+.projects:hover {
+  color: #ff1034;
+  font-size: 2.5rem;
+}
+.connect-pro {
+  position: relative;
+  top: 43%;
+  animation: slide-up-fade 2s forwards;
+}
+
+.hero-footer {
+  height: 50px;
+  background-color: rgb(20, 20, 20);
+  color: whitesmoke;
+}
+.hero-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+a {
+  color: rgb(34, 34, 34);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* ----Keyframes ------------- */
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+
+  to {
+    border-color: #d72638;
+  }
+}
+
+@keyframes slide-up-fade {
+  from {
+    /* top: 200px; */
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  to {
+    /* top: 100px; */
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@media screen and (min-width: 570px) and (max-width: 1250px) {
+  .hero-name {
+    position: relative;
+    top: 3%;
+    left: 15%;
+    font-size: 3rem;
+    width: 200px;
+  }
+
+  .hero-meet {
+    line-height: 2;
+  }
+  .title {
+    height: 100vh;
+    padding: 10px;
+    background-color: #ff1034;
+    grid-area: title;
+    background-size: 390px;
+    background-position: -10px 160px;
+    background-repeat: no-repeat;
+  }
+
+  .sq {
+    width: 300px;
+    top: 17%;
+    left: 18%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero-grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "title"
+      "projects"
+      "connect";
+  }
+
+  .title {
+    height: 90vh;
+    padding: 10px;
+    background-color: #ff1034;
+    grid-area: title;
+    background-size: 380px;
+    background-position: -10px 90px;
+    background-repeat: no-repeat;
+  }
+  .projects,
+  .connect {
+    height: 60vh;
+  }
+
+  .hero-project,
+  .connect-pro {
+    margin-right: 65px;
+  }
+
+  .hero-name {
+    position: relative;
+    top: 3%;
+    left: 5%;
+    font-size: 3rem;
+  }
+  .hero-sub {
+    font-family: "Tusker-98";
+    font-size: 0.9rem;
+    letter-spacing: 5px;
+    line-height: 1;
+    margin-top: -3px;
+    text-transform: uppercase;
+  }
+  .sq {
+    top: 20%;
+    left: 1%;
+  }
+
+  .hero-footer {
+    grid-area: hero-footer;
+  }
+}

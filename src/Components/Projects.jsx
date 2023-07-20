@@ -3,7 +3,7 @@ import CardsProject from './CardsProject'
 import "./stylesheet/project.css"
 import ProjectScroll from './ProjectScroll'
 import data from './ProjectData'
-
+import Nav from "./Nav"
 
 
 export default function Projects() {
@@ -35,6 +35,7 @@ return(
 
   return(
 <section className='pro-section'>
+    <Nav/>
  <div className="two-col">
 
   <div className='pro-header'>

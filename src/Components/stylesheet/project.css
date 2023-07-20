@@ -15,13 +15,14 @@
   right: 10px;
   top: -10px;
   padding: 10px;
+  background-color: #111010;
 }
 
 .pro-git:hover {
   color: rgb(222, 26, 0);
 }
 .pro-section {
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(15, 14, 14);
   height: 170vh;
   width: 100vw;
   padding: 40px 50px;
@@ -62,7 +63,7 @@
 
 .dk-project-card {
   padding: 35px;
-  background-color: rgba(31, 31, 31, 0.876);
+  background-color: rgb(21, 21, 21);
   font-family: "poppins";
   border-radius: 10px;
   text-align: center;
@@ -117,7 +118,7 @@
   .pro-section {
     margin-top: -90px;
 
-    background-color: rgb(30, 29, 29);
+    background-color: #111010;
     padding: 35px;
     height: 210vh;
     font-family: "Roboto Condensed", sans-serif;
@@ -126,7 +127,7 @@
     background-position: -325px 500px;
     background-repeat: no-repeat;
     text-align: center;
-    color: rgb(232, 232, 232);
+    color: rgb(212, 212, 212);
 
     position: relative;
   }
@@ -149,6 +150,7 @@
   .p-title {
     font-family: "Tusker-98";
     font-size: 1.1rem;
+    color: rgb(212, 212, 212);
   }
 
   .text {

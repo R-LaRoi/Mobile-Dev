@@ -29,11 +29,6 @@ body {
   overflow: hidden;
   border-right: transparent;
 }
-.reveal {
-  animation: typing 1.5s steps(18, end) forwards;
-  overflow: hidden;
-  border-right: transparent;
-}
 
 .sub-title {
   font-family: "Tusker-98";

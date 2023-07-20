@@ -1,6 +1,6 @@
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
-import Hero from "./Components/Hero";
+import HeroGrid from "./Components/HeroGrid";
 import Projects from "./Components/Projects"
 import Contact from "./Components/Contact";
 
@@ -10,31 +10,24 @@ import "./App.css"
 
 export default function App() {
   return (
-<div className="page"
-
-><Layout/>
-
-
-<Hero/>
-
-<Projects />
-<Contact />
-
-
-
+<div className="page">
+ <BrowserRouter>
+       <Routes>
+         <Route path="/" element={<Layout />}>
+           <Route index element={<HeroGrid />} />
+           <Route exact path="projects" element={<Projects />} />
+           <Route exact path="contact" element={
+           <Contact />} />
+            <Route exact path="main" element={
+           <HeroGrid />} />
+         </Route>
+         
+       </Routes>
+     </BrowserRouter>
 
 
 </div>
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/" element={<Layout />}>
-    //       <Route index element={<Hero />} />
-    //       <Route exact path="projects" element={<Projects />} />
-    //       <Route exact path="contact" element={<Contact />} />
     
-    //     </Route>
-    //   </Routes>
-    // </BrowserRouter>
   );
 }
 

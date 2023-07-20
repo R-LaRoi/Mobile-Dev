@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './stylesheet/contact.css'
 import elephant from "./assets/elephant.png"
-
+import Nav from './Nav'
 export default function Contact() {
 
 
@@ -55,12 +55,15 @@ console.log(userName)
 
 
   return(
-
+    <section className='contact-page'>
+      <div className='nav-'>
+       <Nav/></div>
     <div className='contact-section'>
-
-        <img src={elephant} alt="" className='elephant'/>
-        <div className="parallelogram"></div>
+<div>  <img src={elephant} alt="" className='elephant'/></div>
+      
+        {/* <div className="parallelogram"></div> */}
            <div className='contact-header'>
+           
               {/*  */}
                   <div className='c-text'>
                As an artist and developer innovation is essential throughout my creative process. 
@@ -68,9 +71,7 @@ While new technologies continue to unfold, I am interested in creating meaningfu
 <p style={{paddingTop:"10px"}}>
 In addition to coding, I am a globetrotting, fit-for-life coach, currently based in eSwatini.
 </p> 
-     </div>
-           <div className='icons'>
-      
+<div className='icons'>
               <div className='p-title'><div>
                 
                 <div className='contact-icons'>
@@ -90,6 +91,8 @@ In addition to coding, I am a globetrotting, fit-for-life coach, currently based
          
         </div>
 
+     </div>
+           
 
 
         
@@ -166,7 +169,7 @@ In addition to coding, I am a globetrotting, fit-for-life coach, currently based
 
  
    </div>
- 
+ </section>
   )
 }
 
