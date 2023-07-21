@@ -109,7 +109,7 @@ In addition to coding, I am a globetrotting, fit-for-life coach, currently based
 
 {showForm ? 
 <form className='mobile-form' onSubmit={sendMessage}>
- Always happy to hear from you.
+Let's connect!
   <input 
       type="text" 
       name="userName" 
