@@ -127,8 +127,8 @@ body {
     height: 210vh;
     font-family: "Roboto Condensed", sans-serif;
     background-image: url("./bird.png");
-    background-size: 520px;
-    background-position: -325px 500px;
+    background-size: 480px;
+    background-position: 255px 90px;
     background-repeat: no-repeat;
     text-align: center;
     color: rgb(212, 212, 212);

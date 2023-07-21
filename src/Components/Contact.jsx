@@ -56,8 +56,8 @@ console.log(userName)
 
   return(
     <section className='contact-page'>
-      <div className='nav-'>
-       <Nav/></div>
+  <div className='nav-'> <Nav /></div>
+     
     <div className='contact-section'>
 <div>  <img src={elephant} alt="" className='elephant'/></div>
       

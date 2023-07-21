@@ -1,8 +1,8 @@
 .contact-section {
-  height: 110vh;
+  height: 100vh;
   position: relative;
   color: rgb(255, 255, 255);
-  margin-top: -30px;
+  margin-top: -20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   z-index: 1;
@@ -10,7 +10,8 @@
 }
 .nav- {
   position: relative;
-  top: 30px;
+  top: 40px;
+  left: 20px;
 }
 
 .contact-page {
@@ -121,14 +122,15 @@ i {
     margin-top: -20px;
     font-family: "Poppins";
     height: 50vh;
+    background-color: transparent;
   }
 
   .elephant {
-    width: 720px;
+    width: 620px;
     position: relative;
     z-index: 9;
     bottom: 0px;
-    left: 190px;
+    left: 80px;
   }
 
   .c-text {
@@ -136,16 +138,16 @@ i {
     width: 400px;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
-    color: rgb(28, 27, 27);
+    color: rgb(227, 227, 227);
     font-size: 1rem;
     margin-left: 10%;
     position: relative;
     top: 10%;
-    left: 250px;
+    left: 120px;
   }
 }
-
-@media screen and (min-width: 1200px) and (max-width: 1975px) {
+/* 
+@media screen and (min-width: 900px) and (max-width: 1975px) {
   .contact-section {
     margin-top: -40px;
     padding: 50px;
@@ -186,7 +188,7 @@ i {
     top: 32%;
   }
 }
-
+ */
 @media (max-width: 550px) {
   .nav- {
     position: relative;
