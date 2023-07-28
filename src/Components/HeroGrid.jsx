@@ -1,7 +1,8 @@
 import React from "react"
 import "./stylesheet/HeroGrid.css"
-
+import Footer from "./Footer"
 import { Link } from 'react-router-dom'
+
 
 
 
@@ -25,21 +26,10 @@ export default function HeroGrid() {
 
 <Link to='/contact' className= 'hero connect'>
   <div className='connect-pro'>connect</div> </Link>
+
 </div>
-
-
-<footer className="hero-footer">
-  <ul className="hero-ul">
-  <li>copyright</li>
-    <li>github</li>
-    <li>email</li>
- 
-    <li>linked in</li>
-  </ul>
-</footer>
+  <Footer />
 </main>
-
-
 
 </>
     

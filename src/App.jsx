@@ -21,13 +21,13 @@ export default function App() {
             <Route exact path="main" element={
            <HeroGrid />} />
          </Route>
-         
+     
        </Routes>
+
      </BrowserRouter>
-
-
+  
 </div>
-    
+ 
   );
 }
 

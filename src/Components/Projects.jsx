@@ -4,7 +4,7 @@ import "./stylesheet/project.css"
 import ProjectScroll from './ProjectScroll'
 import data from './ProjectData'
 import Nav from "./Nav"
-
+import Footer from "./Footer";
 
 export default function Projects() {
 
@@ -34,6 +34,7 @@ return(
 
 
   return(
+    <>
 <section className='pro-section'>
     <Nav/>
  <div className="two-col">
@@ -58,9 +59,7 @@ REACT | Javascript | css | html
   </div>
 {/* <div className='slider'><CardsProject /></div> */}
 <div className='mb-scroll'><ProjectScroll/></div>
-  <div>
-
-  </div>
+  
 
 </div>
 
@@ -69,5 +68,7 @@ REACT | Javascript | css | html
 
 
 </section>
+<Footer />
+</>
   )
 }

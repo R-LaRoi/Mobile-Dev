@@ -101,16 +101,32 @@
 }
 
 .hero-footer {
-  height: 50px;
-  background-color: rgb(20, 20, 20);
+  padding: 10px;
+  font-size: 0.6rem;
+  height: 30px;
+  background-color: rgb(23, 23, 23);
+  z-index: 9;
+
+  /* background-color: rgb(241, 241, 241); */
   color: whitesmoke;
 }
 .hero-ul {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 10px;
+  list-style: none;
+  color: rgb(100, 90, 90);
 }
 
+.footer-icon {
+  position: relative;
+  background-color: transparent;
+  box-shadow: none;
+  color: rgb(100, 90, 90);
+  font-size: 0.8rem;
+  padding: 0px;
+  margin: 0px;
+}
 a {
   color: rgb(34, 34, 34);
 }
@@ -189,7 +205,7 @@ a:hover {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "title"
       "projects"
@@ -235,6 +251,6 @@ a:hover {
   }
 
   .hero-footer {
-    grid-area: hero-footer;
+    background-color: #1f1f1f;
   }
 }

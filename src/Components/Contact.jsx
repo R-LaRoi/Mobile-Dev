@@ -2,6 +2,9 @@ import React, {useState} from 'react'
 import './stylesheet/contact.css'
 import elephant from "./assets/elephant.png"
 import Nav from './Nav'
+import Footer from './Footer'
+
+
 export default function Contact() {
 
 
@@ -146,11 +149,6 @@ Let's connect!
  : null }
 
   
-
-
-    
-{/* <div className='connect'>connect</div>
-<div className='hi'>say hi</div> */}
   
          </div>
 
@@ -169,6 +167,8 @@ Let's connect!
 
  
    </div>
+   <div className='contact-footer'> <Footer /></div>
+  
  </section>
   )
 }
