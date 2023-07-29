@@ -58,17 +58,18 @@ REACT | Javascript | css | html
   <div className='grid'>{projectCards}</div>
   </div>
 {/* <div className='slider'><CardsProject /></div> */}
-<div className='mb-scroll'><ProjectScroll/></div>
+<div className='mb-scroll'>
+  <ProjectScroll/>
+  </div>
   
 
 </div>
 
 
-
-
-
 </section>
+<div className='pro-footer'>
 <Footer />
+</div>
 </>
   )
 }

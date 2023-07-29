@@ -171,4 +171,8 @@ body {
   .pro-cards {
     display: none;
   }
+  .pro-footer {
+    position: relative;
+    top: 180px;
+  }
 }

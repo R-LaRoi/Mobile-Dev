@@ -31,4 +31,9 @@
   .page {
     background-color: #111010;
   }
+
+  .hero-footer {
+    position: relative;
+    z-index: 10;
+  }
 }

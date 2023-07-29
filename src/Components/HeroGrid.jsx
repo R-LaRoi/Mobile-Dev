@@ -26,13 +26,13 @@ export default function HeroGrid() {
 
 <Link to='/contact' className= 'hero connect'>
   <div className='connect-pro'>connect</div> </Link>
-
+<Footer />
 </div>
-  <Footer />
+
 </main>
 
 </>
-    
+
   )
 
 }
